@@ -12,6 +12,7 @@ body {
   grid-template-columns: 1fr;
   align-items: center;
   background-color: cadetblue;
+ 
 }
 
 .title {
@@ -31,10 +32,14 @@ h4 {
 
 img {
   display: block;
+  width: 100%;
+  /* add */
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
+  
 }
